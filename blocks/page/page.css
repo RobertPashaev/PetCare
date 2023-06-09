@@ -1,0 +1,52 @@
+@import url(/vendor/normalize.css);
+@import url(/fonts/style.css);
+@import url(/blocks/header/header.css);
+@import url(/blocks/header/_navigation/header__navigation.css);
+@import url(/blocks/header/__svg/header__svg.css);
+@import url(/blocks/main/main.css);
+@import url(/blocks/popup/popup.css);
+@import url(/blocks/checkbox/checkbox.css);
+@import url(/blocks/sliders/sliders.css);
+@import url(/blocks/text/title.css);
+@import url(/blocks/text/subtitle.css);
+@import url(/blocks/sliders/sliders_btn/slider_btn.css);
+@import url(/blocks/sliders/slider_second/slider_second.css);
+
+@import url(/blocks/sliders/slider_first/slider_first.css);
+@import url(/blocks/cards/card__consultasion/card__consultasion.css);
+@import url(/blocks/cards/card__hover/card__hover.css);
+@import url(/blocks/cards/card__info/card__info.css);
+@import url(/blocks/cards/card.css);
+@import url(/blocks/footer/footer.css);
+
+h1 {
+  font-family: 'Montserrat Regular';
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.page {
+  max-width: 1440px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .page {
+    max-width: 480px;
+  }
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100wv;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 0;
+  }
+}

@@ -1,0 +1,113 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 141px;
+  margin-right: 138px;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  font-family: 'Montserrat Regular';
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+ul:hover {
+  text-decoration-color: rgba(57, 69, 115, 1);
+  text-underline-offset: 0.4em;
+}
+
+.navigation_about {
+  width: 69px;
+  margin-right: 40px;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+.navigation_about:hover {
+  text-decoration-color: rgba(57, 69, 115, 1);
+  text-underline-offset: 0.4em;
+}
+
+.navigation_news {
+  margin-right: 40px;
+  width: 103px;
+}
+
+.navigation_blog {
+  margin-right: 40px;
+  width: 58px;
+}
+
+.navigation_offers {
+  width: 84px;
+}
+
+.navigation_contacts {
+  width: 115px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    margin: 0;
+    max-width: 480px;
+    height: 100%;
+    background-color: #394573;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation_news {
+    margin: 0;
+    width: 106px;
+  }
+
+  .navigation_blog {
+    margin: 0;
+    width: 58px;
+  }
+  ul {
+    color: #bee7e8;
+    z-index: 999;
+    font-size: 1.5em;
+  }
+
+  .navigation_offers {
+    margin: 0;
+    width: 84px;
+  }
+
+  .navigation_contacts {
+    width: 115px;
+    margin: 0;
+  }
+  .navigation_about {
+    white-space: nowrap;
+    margin: 0;
+    width: 69px;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+  }
+}

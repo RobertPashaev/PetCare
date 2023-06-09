@@ -1,0 +1,11 @@
+.main {
+  width: 1440px;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 480px;
+  }
+}

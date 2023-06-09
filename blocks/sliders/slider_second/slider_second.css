@@ -1,0 +1,25 @@
+/* .slider__content {
+  display: flex;
+  flex-direction: column;
+  width: 606px;
+  height: 355px;
+  margin-left: 112px;
+  margin-top: 102px;
+}
+
+.slider_cat_active {
+  position: absolute;
+  width: 400px;
+  height: 495px;
+  top: 60px;
+  right: 197px;
+  display: block;
+} */
+
+.slider__content_second {
+  margin: 136px 112px 0;
+}
+
+.itc-slider-item:nth-child(2) {
+  background-image: url(/images/F0if-2LD4cA.png);
+}

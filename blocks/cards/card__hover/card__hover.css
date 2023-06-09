@@ -1,0 +1,26 @@
+.consultasion_hover {
+  width: 592px;
+  height: 630px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding-left: 40px;
+  margin-left: 30px;
+  display: none;
+}
+
+.consultasion {
+  display: flex;
+  width: 592px;
+  height: 630px;
+}
+
+.dog {
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.dog:hover {
+  opacity: 0.5;
+}

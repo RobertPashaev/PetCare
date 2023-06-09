@@ -1,0 +1,50 @@
+.header__svg {
+  display: flex;
+  gap: 30px;
+  height: 40px;
+  width: 176px;
+  margin-right: 112px;
+}
+
+.header__logo {
+  margin-left: 112px;
+}
+
+.header__svg_insta {
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__svg_insta:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__svg_telegram {
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__svg_telegram:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__svg_vk {
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__svg_vk:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .header__svg {
+    visibility: hidden;
+  }
+}

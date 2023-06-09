@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  width: 1216px;
+  height: 630px;
+  margin: 70px auto;
+  align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* .items {
+  margin: 0;
+} */

@@ -1,0 +1,114 @@
+.slider__button {
+  width: 300px;
+  height: 60px;
+  background: #394573;
+  border-radius: 40px;
+  margin-top: 99px;
+  margin-left: 112px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat Regular';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.slider__button_second {
+  margin: 24px 0 0 0;
+}
+
+.slider__button_first {
+  background: linear-gradient(90deg, #a0d2db 0%, #726da8 100%);
+  margin: 0;
+}
+
+.slider__button_first:hover {
+  opacity: 0.7;
+}
+
+.slider__button_second:hover {
+  background: #394573;
+  opacity: 0.7;
+}
+
+/*slider_arrow*/
+
+.slider__arrow {
+  margin-top: 32px;
+  display: flex;
+  margin-bottom: 54px;
+}
+
+.left_arrow {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+  cursor: pointer;
+}
+
+.rigth_arrow {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+  cursor: pointer;
+  margin-left: 1134px;
+}
+
+.slider__arrow_first {
+  margin-bottom: 23px;
+}
+
+.rigth_arrow_first {
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+.left_arrow_first {
+  transform: scaleX(-1);
+  margin-right: 1116px;
+  cursor: pointer;
+}
+
+.itc-slider-btn-prev {
+  left: 82px;
+}
+
+.itc-slider-btn-next {
+  right: 125px;
+}
+
+.itc-slider-btn:hover,
+.itc-slider-btn:focus {
+  opacity: 0.8;
+}
+
+/* кнопки влево и вправо */
+.itc-slider-btn {
+  position: absolute;
+  top: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: none;
+  border: none;
+  transform: translate(100%);
+  cursor: pointer;
+}
+
+.itc-slider-transition-none {
+  transition: none;
+}

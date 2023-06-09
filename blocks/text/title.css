@@ -1,0 +1,85 @@
+.slider__title {
+  font-family: 'Montserrat Regular';
+  width: 606px;
+  height: 61px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.slider_second_offer-price {
+  font-family: 'Montserrat Regular';
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.slider__description_second {
+  color: #394573;
+}
+
+.slider__title_second {
+  color: #394573;
+}
+
+.slider_second_offer {
+  width: 264px;
+  height: 51px;
+  font-family: 'Montserrat Regular';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #394573;
+}
+
+.slider__title_first {
+  color: #bee7e8;
+  width: 492px;
+  height: 122px;
+}
+
+/*pupop*/
+
+.popup_title {
+  margin: 0;
+  width: 514px;
+  height: 54px;
+  font-family: 'Montserrat Regular';
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #394573;
+}
+
+.title_form {
+  font-family: 'Montserrat Regular';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #394573;
+  align-self: flex-start;
+}
+
+.text {
+  font-family: 'Montserrat Regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid rgba(57, 69, 115, 1);
+  padding-bottom: 8px;
+}

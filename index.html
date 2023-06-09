@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetCare</title>
+    <link href="/blocks/page/page.css" rel="stylesheet" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="/"
+        ><img src="/images/logo.svg" alt="logo" class="header__logo"
+      /></a>
+      <nav class="navigation">
+        <ul class="navigation_news">
+          Новости
+        </ul>
+        <ul class="navigation_about">
+          О нас
+        </ul>
+        <ul class="navigation_blog">
+          Блог
+        </ul>
+        <ul class="navigation_offers">
+          Услуги
+        </ul>
+        <ul class="navigation_contacts">
+          Контакты
+        </ul>
+      </nav>
+      <div class="header__svg">
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="images/insta.svg" alt="inst" class="header__svg_insta"
+        /></a>
+        <a href="https://t.me/RobFit911" target="_blank"
+          ><img
+            src="images/telegram.svg"
+            alt="telegram"
+            class="header__svg_telegram"
+        /></a>
+        <a href="https://vk.com/" target="_blank"
+          ><img src="images/vk.svg" alt="vk" class="header__svg_vk"
+        /></a>
+      </div>
+    </header>
+    <div class="overlay"></div>
+    <section class="popup" id="popup">
+      <div class="popup_container">
+        <img src="/images/trashIcon.svg" alt="close" class="close__popup" />
+        <h2 class="popup_title">
+          Чтобы подобрать план,<br />
+          необходимо заполнить форму ниже
+        </h2>
+        <form class="form" id="formPop">
+          <label for="choice" class="title_form">У меня:</label>
+          <div class="radio_group">
+            <input
+              id="choice1"
+              type="radio"
+              name="animal"
+              value="cat"
+              class="radio_pet"
+            />
+            <label for="choice1">Кошка</label>
+            <input
+              id="choice2"
+              type="radio"
+              name="animal"
+              value="dog"
+              class="radio_pet"
+            />
+            <label for="choice2">Собака</label>
+          </div>
+          <div class="text__group">
+            <input
+              class="text"
+              type="text"
+              name="petName"
+              placeholder="Имя питомца"
+            />
+            <input
+              class="text"
+              type="text"
+              name="petForm"
+              placeholder="Порода питомца*"
+              required
+            />
+            <input
+              class="text"
+              name="petAge"
+              placeholder="Возраст питомца*"
+              required
+            />
+            <input
+              class="text"
+              type="number"
+              name="number"
+              placeholder="Ваш номер телефона"
+            />
+            <input
+              type="email"
+              class="text"
+              name="email"
+              placeholder="Ваш email*"
+              required
+            />
+          </div>
+          <button class="form__pupop" id="popupSubmit" type="submit">
+            Отправить
+          </button>
+        </form>
+      </div>
+    </section>
+    <main class="main">
+      <div class="container">
+        <div class="itc-slider" data-slider="itc-slider" data-loop="false" data-autoplay="false">
+          <div class="itc-slider-wrapper">
+            <div class="itc-slider-items">
+              <div class="itc-slider-item">
+                <div class="slider__content slider_content_first">
+                  <img
+                    src="images/cat_PNG50514 1.png"
+                    alt="Cat"
+                    class="slider_cat_active"
+                  />
+                    <img
+                      src="images/cat_PNG50514 1.png"
+                      alt="Cat"
+                      class="slider_cat_active"
+                    />
+                  <h2 class="slider__title slider__title_first">
+                    Мы заботимся о ваших питомцах
+                  </h2>
+                  <p class="slider__description slider__description_first">
+                    Записывайтесь в ветклиники и консультируйтесь с ветеринарным
+                    врачом онлайн
+                  </p>
+                  <button class="slider__button slider__button_first" id="scrollButton">
+                    Связаться с нами
+                  </button>
+                </div>
+                
+              </div>
+              <div class="itc-slider-item">
+                <div class="slider__content slider__content_second">
+                  <h2 class="slider__title slider__title_second">
+                    Закажите план заботы
+                  </h2>
+                  <p class="slider__description slider__description_second">
+                    Регулярная доставка специально подобранного корма и других товаров
+                    для кошек и собак
+                  </p>
+                  <h3 class="slider_second_offer">
+                    от <span class="slider_second_offer-price">1299 ₽</span>/мес
+                  </h3>
+                  <button
+                  class="slider__button slider__button_second"
+                  id="open-my-popup"
+                >Подобрать план</button>
+                </div>
+                
+              </div>
+            </div>
+            <button class="itc-slider-btn itc-slider-btn-prev">
+              <img src="/images/leftArrow.svg" alt="arrow">
+            </button>
+            <button class="itc-slider-btn itc-slider-btn-next">
+              <img src="/images/rigthArrow.svg" alt="arrow">
+            </button>
+          </div>
+          </div>
+      <section class="cards">
+        <div class="consultasion">
+          <div class="consultasion_hover" id="consultasion_hover">
+            <h2 class="consultasion__title">
+              Онлайн-консультация с терапевтом
+            </h2>
+            <h3 class="consultasion__price">
+              <span class="from">от </span>399 ₽
+            </h3>
+            <div class="items">
+              <li class="item">
+                <image src="images/okay.svg" alt="plus" class="item_svg"
+                  ><p class="form_item">Аудио, видео или чат</p></image
+                >
+              </li>
+              <li class="item">
+                <image src="images/okay.svg" alt="plus" class="item_svg"
+                  ><p class="time_item">Продолжительность до 60 минут</p></image
+                >
+              </li>
+              <li class="item">
+                <image src="images/okay.svg" alt="plus" class="item_svg"
+                  ><p class="check_item">
+                    Подробный отчет после консультации: что сделать сейчас,
+                    чтобы стало лучше
+                  </p></image
+                >
+              </li>
+            </div>
+            <button class="consultasion_button">Начать консультацию</button>
+          </div>
+          <img
+            src="/images/consultation.svg"
+            alt="Консультация"
+            class="dog"
+            id="dog"
+          />
+        </div>
+        <div class="info">
+          <h2 class="info__title">Самые болезненные породы кошек: топ-5</h2>
+          <p class="info__subtitle">
+            Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.
+          </p>
+          <a href="https://www.proplan.ru/cat/article/" target="_blank"
+            ><p class="info__footer">Все статьи о кошках</p></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__contact">
+        <h3 class="nubmer">8 (800) 999-88-77</h3>
+        <h3 class="email">info@petcare.com</h3>
+      </div>
+      <p class="reserved">©2021 PetCare. Все права защищены</p>
+      <a href="/"
+        ><img src="/images/logo.svg" alt="logo" class="logo__footer"
+      /></a>
+    </footer>
+    <script src="/script/script.js" defer></script>
+    <script src="/script/sliders.js" defer></script>
+  </body>
+</html>

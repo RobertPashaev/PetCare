@@ -1,0 +1,23 @@
+.slider__content {
+  display: flex;
+  flex-direction: column;
+  width: 606px;
+  height: 355px;
+  margin-left: 112px;
+  margin-top: 102px;
+}
+
+.slider_cat_active {
+  position: absolute;
+  width: 400px;
+  height: 495px;
+  top: 60px;
+  right: 197px;
+  display: block;
+}
+
+.itc-slider-item:nth-child(1) {
+  background-image: url(/images/Ellipse\ 1.png);
+  background-color: white;
+  background-repeat: no-repeat;
+}

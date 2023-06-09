@@ -1,0 +1,44 @@
+.radio_group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 41px;
+  margin-top: 24px;
+}
+
+.radio_pet {
+  display: none; /* Скрыть оригинальные радио-кнопки */
+}
+
+.radio_pet + label {
+  position: relative;
+  padding-left: 39px;
+  cursor: pointer;
+}
+
+.radio_pet + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #394573;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.radio_pet:checked + label:before {
+  background-color: #ffffff;
+}
+
+.radio_pet:checked + label:after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 9px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #394573;
+}
